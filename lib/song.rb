@@ -73,3 +73,5 @@ class Song
   end
 
 end
+
+#*reminder string interpolation in a sql query causes string injections
