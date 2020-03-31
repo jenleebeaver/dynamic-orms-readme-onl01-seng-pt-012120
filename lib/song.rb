@@ -72,6 +72,7 @@ class Song
     DB[:conn].execute(sql)
   end
 
+  #another way to code
   # def self.find_by_name(name)
   # DB[:conn].execute("SELECT * FROM #{self.table_name} WHERE name = ?", [name])
   # end
