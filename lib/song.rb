@@ -60,7 +60,6 @@ class Song
     end
     values.join(", ")
   end
-
 #result: ["'the name of the song'", "'the album of the song'"]
 
   def col_names_for_insert
