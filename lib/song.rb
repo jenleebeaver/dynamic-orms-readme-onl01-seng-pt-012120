@@ -61,6 +61,8 @@ class Song
     values.join(", ")
   end
 
+#result: ["'the name of the song'", "'the album of the song'"]
+
   def col_names_for_insert
     self.class.column_names.delete_if {|col| col == "id"}.join(", ")
   end
